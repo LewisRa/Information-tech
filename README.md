@@ -79,6 +79,13 @@ This is done by creating a domain enviroment, join clients to domain. Most od di
 10. Communication servers - IM, audio/video cals, virtual conferencing, auditing messages/calls, integrating PBX or PSTN
   - VOIP protocol
   - Lync server vs Jabber
+---
+docker ps <br>
+airflow-tutorial_webserver_1 <br>
+docker exec -ti airflow-tutorial_webserver_1 bash <br>
+**airfloow@ef5ea96c9c4**: ~$ airflow list-dags <br>
+airflow initdb <br> 
 
-
-
+docker exec -ti airflow-tutorial_webserver_1 bin/bash
+ls
+**airflow airflow.cfgg airflow-webserver.pid dags logs**
