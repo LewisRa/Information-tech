@@ -80,6 +80,30 @@ This is done by creating a domain enviroment, join clients to domain. Most od di
   - VOIP protocol
   - Lync server vs Jabber
 ---
+## When to build desktop apps
+- App that can run standalone or offline
+- no latency (since desktop app are local and are not very dependent on external networ, high exceution speed)
+- when you need access local hardware like hard drive/ printer/ scanne/ graphics card(game)
+- local operating system access
+
+## When to build mobile apps instead of a modile enabled mobile website
+- local resources from phone/tablet are need (camera access)
+- Background tasks (for example: fitness app can run the bg to count calories while you use another mobile app)
+- push notifications
+- mobile apps can have local storage(for example: WhatsApp lets you res messge even if you are offline for a minute
+- low resource consumption
+
+## Job examples
+- Server Admin
+- Web or Database Admin
+- Unified Messaging Admin
+- Network Admin
+- Storage Admin
+- Web Developer
+- Mobile Developer
+- Software Developer
+
+---
 docker ps <br>
 airflow-tutorial_webserver_1 <br>
 docker exec -ti airflow-tutorial_webserver_1 bash <br>
