@@ -79,6 +79,21 @@ This is done by creating a domain enviroment, join clients to domain. Most od di
 10. Communication servers - IM, audio/video cals, virtual conferencing, auditing messages/calls, integrating PBX or PSTN
   - VOIP protocol
   - Lync server vs Jabber
+  
+  ## IT Service Managment
+  - ICT infrastructure management
+  - Service Desk
+  - IT Infrastructure Library (ITIL)
+  - Microsoft Operations Framework (MOF)
+  - FitSM
+  
+  ## Data backups
+ Data loss can translate to lost customers, lawsuits, tarnished reputations, and lost revenue, so protect data with regular backups. 
+ 
+ Also, performing regular mock drill restoration to check that backup works is beneficial.
+ 
+ Backup professionals have a responsibility to design a complete disaster recovery solution. A complete disaster recovery solution plan
+
 ---
 ## When to build desktop apps
 - App that can run standalone or offline
