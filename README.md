@@ -122,6 +122,22 @@ Examples are backup systems:
 - Mobile Developer
 - Software Developer
 
+
+1. RAM
+  - memory hierachy (disks, RAM, Caches, Registers)
+2. CPU
+  - Instruction set Architecture
+  - Instruction Level Parrkekusn(ILP)
+3. Operating System
+  - Virtual memory
+  - Processes & Threads
+  - static and shared libraries
+4. Basic Networks/ The internet
+5. How computers works PT1/PT2
+6. The internet playlist
+7.  internet sockets, IP, webframe, 
+HTTP, web browsers, hosting
+8. Interprocess communication
 ---
 docker ps <br>
 airflow-tutorial_webserver_1 <br>
