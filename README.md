@@ -88,11 +88,15 @@ This is done by creating a domain enviroment, join clients to domain. Most od di
   - FitSM
   
   ## Data backups
- Data loss can translate to lost customers, lawsuits, tarnished reputations, and lost revenue, so protect data with regular backups. 
+ Data loss can translated to lost customers, lawsuits, tarnished reputations, and lost revenue, so protect data with regular backups.
+ Also, perform regular mock data loss drill restoration to check that the data backup is working and is beneficially.
  
- Also, performing regular mock drill restoration to check that backup works is beneficial.
- 
- Backup professionals have a responsibility to design a complete disaster recovery solution. A complete disaster recovery solution plan
+ Backup professionals have a responsibility to design a complete disaster recovery solution. A complete disaster recovery solution plan can encompass protecting a single file on a single customer to protecting a entire site level(in case of earthquakes, fires floods). Backups of entire sites are place in another site i.e. If you have a data center in NY back it up in Chicago.  
+
+Examples are backup systems: 
+- Storage media
+- Backup tools
+- Windows Backups
 
 ---
 ## When to build desktop apps
