@@ -120,9 +120,14 @@ Examples are backup systems:
 - Storage Admin
 - Web Developer
 - Mobile Developer
-- Software Developer
+- Software Engineer (Jr. SWE, Mid SWE, Sr. SWE, software architect) OR ( SWE, SWE Manager, VP of Product)
 - PLM engineer = product life cycle managament 
-
+- Product Manager (PM, Senior PM, Group PM/director, VP of product/Chief Product Officer, General Manager, CEO)
+  - Create tasks for the engineers
+  - Crunching numbers in excel/ talking to data scientist or data engineer
+  - Writing technical specs
+  - Finding error in formula
+  - Talking to designer
 
 1. RAM
   - memory hierachy (disks, RAM, Caches, Registers)
