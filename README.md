@@ -86,7 +86,28 @@ This is done by creating a domain enviroment, join clients to domain. Most od di
   - IT Infrastructure Library (ITIL)
   - Microsoft Operations Framework (MOF)
   - FitSM
+ 
+ # Storage 
+ Desktop, laptops, computers, etc all come with internal hard drive that are used to storage information/data and install operating     system. 
   
+Hard drives are not very reliable.Also in enterprises, you create clusters of servers that work as a unit, they need to access a single storage device concurrently and independently, which a hard drive cannot offer to do.These are the two major reasons why servers, in addition to existing hard drives, also use a shared storage. Storages can be independently accessed by multiple servers at the same time. 
+
+**DAS**
+- Dedicated
+- Single host accesss
+- Interval local hard drive
+- ATA, SATA (**my Lenovo T480S**), eSATA, or SAS
+- cheap, simple, fast
+
+**SAN/NAS**
+- Shared, reliable
+- Concurrent independent access
+- External - appears local/ appears remote
+- Storage (no file system)/storage + file system
+- SCSI or fibre channel/SMB/CIFS/NDS (over TCP/IP)
+- expensive, complex, fast/cheap, simple, moderate speed
+**USE SAN if you have choice**
+
   ## Data backups
  Data loss can translated to lost customers, lawsuits, tarnished reputations, and lost revenue, so protect data with regular backups.
  Also, perform regular mock data loss drill restoration to check that the data backup is working and is beneficially.
@@ -98,6 +119,17 @@ Examples are backup systems:
 - Backup tools
 - Windows Backups
 
+## RAID Configurations 
+- Data and disks cna be protected through RAID configurations
+- RAID = **Redundant Array of Independent Disks**
+- Optimize for performance configurations
+
+- RAID 0 = Data Striping (perofrmance)
+- RAID 1 = Mirroring (redundancy)
+- RAID 10 = RAID 1 + RAID 10
+
+**There is HARDWARE RAID or SOFTWARE RAID**
+**Search 'Best RAID for SQL Server more information'**
 ---
 ## When to build desktop apps
 - App that can run standalone or offline
