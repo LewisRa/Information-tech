@@ -144,6 +144,24 @@ Examples are backup systems:
 - mobile apps can have local storage(for example: WhatsApp lets you res messge even if you are offline for a minute
 - low resource consumption
 
+---
+## DevOps = Quickness and Stability 
+**Development**
+- new initativies 
+- security updates
+- bug fixes
+
+Development teams need to wait a week for thier work to be placed into the production enviroment because of the steps with building, testing, and deployment thier software and issues are compunding by the fixed deployment schedule enforced by operations team to **ensure stability**, but delays increase pressure from developers' business partners to deliever on thier expectaton so they can stey competive in the marketplace. 
+
+**Operations**
+- supports and maintains the software in the production environment
+
+The same business partners that want features deployed quickly from development teams also **want stability** from the operations team. 
+Also, Ops need to provision and maintain an increasingly large volume of servers to run all the new software being developed and ops also tweak software developement code for it to run better in the production environment.
+
+**Also, information security need to ensure security scaninning is conducted on the code for the new release**
+
+---
 ## Job examples
 - Server Admin
 - Web or Database Admin
@@ -153,7 +171,8 @@ Examples are backup systems:
 - Web Developer
 - Mobile Developer
 - Software Engineer (Jr. SWE, Mid SWE, Sr. SWE, software architect) OR ( SWE, SWE Manager, VP of Product)
-- PLM engineer = product life cycle managament 
+- PLM engineer = product life cycle managament
+- DevOps Engineer
 - Product Manager (PM, Senior PM, Group PM/director, VP of product/Chief Product Officer, General Manager, CEO)
   - Create tasks for the engineers
   - Crunching numbers in excel/ talking to data scientist or data engineer
@@ -176,6 +195,8 @@ Examples are backup systems:
 7.  internet sockets, IP, webframe, 
 HTTP, web browsers, hosting
 8. Interprocess communication
+
+
 ---
 docker ps <br>
 airflow-tutorial_webserver_1 <br>
