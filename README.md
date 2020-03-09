@@ -87,7 +87,38 @@ This is done by creating a domain enviroment, join clients to domain. Most od di
   - Microsoft Operations Framework (MOF)
   - FitSM
  
- # Storage 
+ ## Network
+ Standard Language to Communicate:
+ - TCP (Transmission Control Protocol)
+ - IP (Internet Protocol
+ 
+ - TCP/IP originated by US Department of Defense
+#### 7 Layer OSI model
+ 
+ 7) Application
+ 6) Presentation
+ 5) Session
+ ------------------
+ 4) Transport
+ ------------------
+ 3) Network
+ ------------------
+ 2) Data Link
+ 1) Physical
+ 
+ #### Evolved into modern 4 layer TCP/IP model
+ 4) Application layer
+ -----------------
+ 3) TCP layer
+  -----------------
+ 2) IP layer
+  -----------------
+ 1) Netwoek Interface layer
+ 
+ 
+ 
+ 
+ ## Storage 
  Desktop, laptops, computers, etc all come with internal hard drive that are used to storage information/data and install operating     system. 
   
 Hard drives are not very reliable.Also in enterprises, you create clusters of servers that work as a unit, they need to access a single storage device concurrently and independently, which a hard drive cannot offer to do.These are the two major reasons why servers, in addition to existing hard drives, also use a shared storage. Storages can be independently accessed by multiple servers at the same time. 
