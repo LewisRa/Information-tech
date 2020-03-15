@@ -91,7 +91,6 @@ This is done by creating a domain enviroment, join clients to domain. Most od di
  Standard Language to Communicate:
  - TCP (Transmission Control Protocol)
  - IP (Internet Protocol
- 
  - TCP/IP originated by US Department of Defense
 #### 7 Layer OSI model
  
@@ -114,10 +113,25 @@ This is done by creating a domain enviroment, join clients to domain. Most od di
  2) IP layer
   -----------------
  1) Netwoek Interface layer
- 
- 
- 
- 
+
+#### Ports that operate in the Application Layer: 
+- LDAF 389 (Authctication server) 
+- SMB/CIFI 3020 (file server)
+- HTTP 80 (Web server)
+- SMTP 25 (email server)
+- RDP 389 (remote desktop protocol)
+
+Transport layer is responsible for transporting the data either using the connection oriented or connection less method
+Network layer = internet layer routes the data package using destination IP addresses through the routers.
+The network layer switches data frames based on the mac addresses in network interface layers (data link, physical)
+Each device has a unique mac address (think mobile setup in Onboarding)
+Key terms for networking: computer name, IP address, MAC address, ports
+Example: Consider you want to go the White House
+The White House is the Destination name (Computer Name)
+To get to the White House, you need the address- similarly to get access to the computer, you need its IP address. 
+When you get to the White House (the computer), who do you want to meet
+
+  
  ## Storage 
  Desktop, laptops, computers, etc all come with internal hard drive that are used to storage information/data and install operating     system. 
   
